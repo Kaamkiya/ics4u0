@@ -23,5 +23,25 @@ public class Lesson3_InputDataUsingSwing
         double area = width*length;
         double perimeter = 2*(width+length);
         JOptionPane.showMessageDialog(null, String.format("Area: %.2f\nPerimeter: %.2f", area, perimeter));
+
+        // Confirm dialog
+        int response = JOptionPane.showConfirmDialog(
+            null,
+            "yes or no",
+            "yes",
+            JOptionPane.YES_NO_CANCEL_OPTION
+        );
+        switch (response) {
+        case JOptionPane.YES_OPTION:
+            System.out.println("yes :)");
+            break;
+        case JOptionPane.NO_OPTION:
+            System.out.println("no :(");
+            break;
+        case JOptionPane.CANCEL_OPTION:
+            System.out.println("what :/");
+            break;
+        default: break;
+        }
     }
 }
