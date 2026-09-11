@@ -1,0 +1,5 @@
+Students' marks on three tests
+
+John   60 70 80
+Maria  70 80 90
+Ahad   80 90 70

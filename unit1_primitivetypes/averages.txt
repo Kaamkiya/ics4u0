@@ -1,0 +1,12 @@
+Students' marks on three tests
+Student: John
+Test scores: 60.00 70.00 80.00
+Average: 70.00
+
+Student: Maria
+Test scores: 70.00 80.00 90.00
+Average: 80.00
+
+Student: Ahad
+Test scores: 80.00 90.00 70.00
+Average: 80.00

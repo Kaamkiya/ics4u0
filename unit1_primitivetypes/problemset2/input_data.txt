@@ -1,0 +1,5 @@
+My mark on 4 tests for each subject
+CompSci     70 80 86 90
+Physics     65 76 84 88
+Chemistry   75 80 87 92
+Mathematics 75 85 90 95
