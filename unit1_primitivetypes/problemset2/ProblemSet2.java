@@ -34,5 +34,9 @@ public class ProblemSet2
             System.out.printf("Marks: %5.2f %5.2f %5.2f %5.2f\n", test1, test2, test3, test4);
             System.out.printf("Average: %5.2f\n", average);
         }
+
+        fr.close();
+        infile.close();
+        outfile.close();
     }
 }
