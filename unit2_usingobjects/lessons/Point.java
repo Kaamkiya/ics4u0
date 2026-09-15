@@ -35,6 +35,18 @@ public class Point
         return y;
     }
 
+    public double moveX(double offset) {
+        return x+offset;
+    }
+
+    public double moveY(double offset) {
+        return y+offset;
+    }
+
+    public double distance() {
+        return Math.sqrt(x*x + y*y);
+    }
+
     @Override
     public String toString() {
         return "("+x+","+y+")";
