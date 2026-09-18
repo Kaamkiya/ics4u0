@@ -31,5 +31,9 @@ public class Lesson7_OtherTopics
         System.out.println(2+3+" = five"); // 5 = five
         System.out.println("five = "+2+3); // five = 23
         System.out.println("five = "+(2+3)); // five = 5
+
+        // Escape references
+        System.out.println("To be\\or not to be"); // To print a backslash, type \\
+        System.out.print("hi\n");
     }
 }
