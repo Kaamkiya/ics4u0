@@ -20,5 +20,40 @@ public class StringClass {
         System.out.println(q.substring(0, 8)); // Northern
         System.out.println(q.substring(9)); // Secondary School
         System.out.println(q.substring(0,10)+q.substring(19,20)); // Northern SS
+
+        // Concatenation
+        String n1 = "3";
+        String n2 = "4";
+        String n3 = n1.concat(n2);
+
+        // Converting String to integer
+        int t = Integer.parseInt(n3);
+        System.out.println(t+10); // 44
+
+        // indexOf method
+        System.out.println("computer".indexOf('t')); // 5
+        System.out.println("computer".indexOf("put")); // 3
+        System.out.println("length".length()); // 6
+
+        // contains method
+        System.out.println("java and python exercises".contains("java")); // true
+
+        // Capitalization
+        System.out.println("OOPSIES I CAPS LOCKED THIS".toLowerCase());
+        System.out.println("i forgot to capitalize this".toUpperCase());
+
+        // Integer to String
+        String s = String.valueOf(45);
+        System.out.println(s+5); // 455
+
+        // replace method
+        System.out.println("kava".replace("k", "j"));
+
+        // compare
+        String b1 = "Drew";
+        String b2 = "Blew";
+        System.out.println(b1.compareTo(b2)); // -9 (negative number means correct alphabetical order)
+        System.out.println(b2.compareTo(b1)); // 9 (positive number means incorrect alphabetical order)
+        System.out.println(b1.compareTo(b1)); // 0
     }
 }
