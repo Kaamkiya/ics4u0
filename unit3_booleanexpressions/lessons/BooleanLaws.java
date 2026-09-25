@@ -22,5 +22,13 @@ public class BooleanLaws {
         System.out.println(!(a&&b) == (!a||!b));
 
         System.out.println(a||(b&&c) == (a||b)&&(a||c));
+
+        System.out.println(a||(b||c) == (a||b)||c);
+        System.out.println(a&&(b&&c) == (a&&b)&&c);
+
+        System.out.println((a||b) == (b||a));
+        System.out.println((a&&b) == (b&&a));
+
+        System.out.println(!(!a) == a);
     }
 }
