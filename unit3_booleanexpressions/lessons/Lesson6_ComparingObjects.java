@@ -3,13 +3,13 @@
  * Date: Oct 02, 2026
  * Topic: comparing objects
  */
-    class Point {
-        double x, y;
-        public Point(double x, double y) {
-            this.x=x;
-            this.y=y;
-        }
+class Point {
+    double x, y;
+    public Point(double x, double y) {
+        this.x=x;
+        this.y=y;
     }
+}
 public class Lesson6_ComparingObjects {
     public static void main(String[] args) {
         String s1 = "blue";
@@ -30,5 +30,10 @@ public class Lesson6_ComparingObjects {
 
         // instanceof keyword
         System.out.println(p1 instanceof Point); // true
+
+        Double a = 9.19;
+        Double b = 9.19;
+        System.out.println(a==b); // false
+        System.out.println(a.equals(b)); // true
     }
 }
