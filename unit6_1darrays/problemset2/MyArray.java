@@ -153,9 +153,7 @@ public class MyArray {
         for (int i=0;i<a.length;i++) {
             if (i<v) {
                 res[i]=a[i];
-            } else if (i==v) {
-                continue;
-            } else {
+            } else if (i>v) {
                 res[i-1]=a[i];
             }
         }
