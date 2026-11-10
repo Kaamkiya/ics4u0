@@ -50,5 +50,36 @@ public class Lesson1_ArrayListMethods {
         names.clear();
         System.out.println(names);
         System.out.println(names.isEmpty());
+
+        // new arraylist with elements
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(12,18,11,92,5));
+        System.out.println(list);
+
+        // getting an element from an arraylist
+        System.out.println(list.get(2));
+
+        // sorting an arraylist
+        Collections.sort(list);
+        System.out.println(list);
+
+        // traversing an arraylist
+        for (int i = 0; i<list.size();i++) System.out.print(list.get(i)+"  ");
+        System.out.println();
+
+        // traversing an arraylist with an enhanced for loop
+        for (Integer q : list) {
+            System.out.print(q+"  ");
+        }
+        System.out.println();
+
+        // traversing with an iterator
+        Iterator it = list.iterator();
+        while (it.hasNext()) {
+            System.out.print(it.next()+"  ");
+        }
+        System.out.println();
+
+        // check if arraylist contains element
+        System.out.println(list.contains(6));
     }
 }
